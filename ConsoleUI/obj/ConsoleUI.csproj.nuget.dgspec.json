@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Desktop\\c# alıstırma\\JewelleryECommerce\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\GUNES\\Documents\\GitHub\\Jew\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\c# alıstırma\\JewelleryECommerce\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\GUNES\\Documents\\GitHub\\Jew\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\JewelleryECommerce\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\GUNES\\Documents\\GitHub\\Jew\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\JewelleryECommerce\\ConsoleUI\\ConsoleUI.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\JewelleryECommerce\\ConsoleUI\\obj\\",
+        "projectPath": "C:\\Users\\GUNES\\Documents\\GitHub\\Jew\\ConsoleUI\\ConsoleUI.csproj",
+        "packagesPath": "C:\\Users\\GUNES\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GUNES\\Documents\\GitHub\\Jew\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GUNES\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
