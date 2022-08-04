@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace EntityLayer.Concrete
 {
     public class Customer
     {
+        [Key]
         public int customerID { get; set; }
 
         public string username { get; set; }
@@ -28,5 +30,11 @@ namespace EntityLayer.Concrete
         public string customerImageUrl { get; set; }
 
         public bool customerStatu { get; set; }
+
+
+        public ICollection<Admin> admins { get; set; } 
+        public ICollection<Adress> adresses { get; set; }
+        public ICollection<PreOrder> preOrders { get; set; }
+        public ICollection<BankCard> bankCards { get; set; }
     }
 }
