@@ -13,6 +13,6 @@ namespace DataAccessLayer.Abstract
         void Remove(TEntity entity);
         void Update (TEntity entity);
         List<TEntity> GetAll();
-        TEntity Get(int id);
+        
     }
 }

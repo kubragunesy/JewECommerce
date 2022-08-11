@@ -18,5 +18,6 @@ namespace EntityLayer.Concrete
         public int customerID { get; set; }
         public virtual Customer customer { get; set; }
 
+
     }
 }

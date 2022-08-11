@@ -16,7 +16,6 @@ namespace DataAccessLayer.Concrete
           
         }
 
-
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Adress> Adresses { get; set; }
         public DbSet<BankCard> BankCards { get; set; }
@@ -29,6 +28,5 @@ namespace DataAccessLayer.Concrete
         public DbSet<Product> Products { get; set; }
         public DbSet<Remand> Remands { get; set; }
         
-
     }
 }
